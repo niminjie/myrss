@@ -1,0 +1,60 @@
+body {
+  background-color: white;
+}
+
+.row-border {
+   border-top:1px solid #ECF0F1;
+}
+
+.border-right {
+   border-right:1px solid #ECF0F1;
+}
+
+#source-list {
+  height: 1000px;
+}
+
+.source-name {
+  text-align: center;
+  font-size: 1em;
+  height: 30px;
+  margin: 10px;
+}
+
+.source-name:hover {
+  background-color: #2ECC71;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  height: 30px;
+  margin: 10px;
+}
+
+.article {
+  margin: 10px;
+  height: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+
+.article:hover {
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.article-title {
+  font-size: 1.5em;
+}
+
+.article-text {
+
+}
+
+.article-source {
+
+}
+
+.article-box {
+  height: 200px;
+}
