@@ -1,8 +1,6 @@
 .nomargin {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px;
 }
-
 #itpanel {
   background-color: #22b24c;
   border-color: #22b24c;
@@ -13,7 +11,7 @@
   position:fixed;
 }
 
-.list-group-item .right {
+a .right {
   float: right;
   line-height: inherit;
 }
@@ -27,8 +25,7 @@ a .fw {
 }
 
 .list-group .list-group-item .date {
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin-top 0px;
   font-size: 1em;
   color: grey;
 }

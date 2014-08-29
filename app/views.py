@@ -11,4 +11,5 @@ def index():
     # db = DBControler("/Users/niminjie/Documents/workspace/webSite/RSSReader/feed.db") 
     feeds = db.query("feeds")
     print feeds[0].keys()
-    return render_template('index.html', feeds=feeds)
+    return render_template('rss.html', feeds=feeds)
+    # return render_template('index.html', feeds=feeds)
